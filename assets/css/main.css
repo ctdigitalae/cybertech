@@ -1,15 +1,4 @@
-/**
-* Template Name: FlexStart
-* Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
 /* Fonts */
 
 @font-face{
@@ -542,7 +531,6 @@ h6 {
   color: var(--default-color);
   background-color: var(--background-color);
   font-size: 14px;
-  padding-bottom: 50px;
   position: relative;
 }
 
@@ -924,6 +912,19 @@ section,
 }
 
 @media (max-width: 640px) {
+
+  .hero{
+    padding: 0 25px;
+  }
+
+  .height-e{
+    height: 50vh;
+  }
+
+  .hero h1{
+    text-align: center;
+  }
+
   .hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -933,6 +934,10 @@ section,
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+
+  .footer .footer-newsletter{
+    padding: 50px 15px;
   }
 }
 
@@ -1935,6 +1940,11 @@ section,
 
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, #253D8A, transparent 20%);
+}
+
+
+.contact .info-item p a{
+  color: #444444;
 }
 
 /*--------------------------------------------------------------
