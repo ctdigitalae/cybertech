@@ -957,6 +957,7 @@ section,
 .about .content {
   background-color: color-mix(in srgb, #253D8A, transparent 95%);
   padding: 40px;
+  border-radius: 50px 10px 40px 0;
 }
 
 .about .content h3 {
